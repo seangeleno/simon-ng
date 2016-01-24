@@ -12,4 +12,4 @@ var express     = require('express')
 
 
 app.listen(config.port);
-console.log("Server running on port 3000.");
+console.log("Server running on port 3000.".rainbow);
