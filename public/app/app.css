@@ -1,0 +1,96 @@
+body {
+  background-color: rgba(0,0,0,.2);
+}
+
+
+.startButton{
+    border: solid 1px #5492CA;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 38px;
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px #FFF;
+    font-family: Arial;
+}
+
+
+.mainCircle {
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,.75);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+  /*z-index: -1;*/
+  margin: 0 auto;
+  position: relative;
+  border: 5px black solid;
+}
+
+#topLeft{
+  background-color: rgba(53, 190, 53,.75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 200px 0 0 0;
+  border-radius: 200px 0 0 0;
+  position: absolute;
+  /*border: 2px solid black;*/
+}
+#topLeft:active{
+  background-color: rgba(53, 190, 53,1);
+
+}
+#topRight{
+  background-color: rgba(245, 45, 45, .75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 0 200px 0 0;
+  border-radius:  0 200px 0 0;
+  position: absolute;
+  left: 50%;
+}
+#topRight:active {
+  background-color: rgba(245, 45, 45, 1);
+}
+
+#bottomRight{
+  background-color: rgba(245, 245, 45, .75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 0 0 200px 0;
+  border-radius:  0 0 200px 0 ;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  /*border: 2px solid black;*/
+}
+#bottomRight:active{
+  background-color: rgba(245, 245, 45, 1);
+}
+
+#bottomLeft{
+  background-color: rgba(45, 45, 245, .75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 0 0 0 200px;
+  border-radius: 0 0 0 200px;
+  position: absolute;
+  right: 50%;
+  bottom: 0%;
+}
+
+#bottomLeft:active {
+  background-color: rgba(45, 45, 245, 1);
+}
+
+
+.resetButton {
+    border: solid 1px #5492CA;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 38px;
+    border-radius: 6px;
+    font-family: Arial;
+}
